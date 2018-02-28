@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+	font: 300 18px/1.8 Lato, sans-serif;
+	margin: 0;
+	color: #171717;
+	background-color: #FFF;
+
+}
+.wc-main{
+	max-width: 1600px;
+}
+.wc-container{
+	padding: 140px 138px 200px 121px;
+	max-width: 1400px;
+	height: 940px;
+	margin: 0 auto;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	color: #171717;
+}
+.wc-title h1{
+	/* padding: 140px 1039px 766px 123px; */
+	font:400 42px/1.8 'Playfair Display' , serif;
+	color: #171717;
+}
+.wc-quote{
+	font-style: oblique;
+	font: 300 24px/1.89;
+}
+.wc-quote:before{
+	content: "“";
+	font-size:50px;
+
+}
+.wc-first:first-letter{
+	font:400 100px/0.8  serif;
+	float: left;
+	letter-spacing: 0.2em;
+}
+.wc-button{
+	text-transform: uppercase;
+	padding: 1px 50px 1px 50px;
+	color: #eaa258;
+	text-decoration: none;
+	border: 2px solid #eaa258;
+	float: left;
+
+}
